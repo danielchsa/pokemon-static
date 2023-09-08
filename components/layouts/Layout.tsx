@@ -31,7 +31,7 @@ export const Layout: FC<Props> = ({ children, title }) => {
             title || "pokemon app"
           }`}
         />
-        <meta property="og:image" content={`${origin}/img/banner.png`} />
+        <meta property="og:image" content={`${origin}/img/pokemon.jpg`} />
       </Head>
       <Navbar />
       <main style={{ padding: "20px 50px" }}>{children}</main>
